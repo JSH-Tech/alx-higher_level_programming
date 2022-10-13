@@ -1,9 +1,19 @@
 #!/usr/bin/python3
+"""Square class definition"""
+
+
 class Square:
-    """type class square"""
+    """Represents a square
+
+    Attributes:
+        __size (int): size of a side of the square
+    """
     def __init__(self, size):
-        """Init the square class
+        """Initializes a square
+
         Args:
-        param1: size is the type int attribute to make it private
+            size (int): size of a side of the square
+
+        Returns: None
         """
         self.__size = size
