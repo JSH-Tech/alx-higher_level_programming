@@ -1,0 +1,3 @@
+def copy_list(l):
+    a_list=[]
+    return a_list=l.copy()
